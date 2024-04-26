@@ -22,11 +22,11 @@ import rewards.internal.reward.RewardRepository;
 */
 public class RewardNetworkImpl implements RewardNetwork {
 
-	private AccountRepository accountRepository;
+	private final AccountRepository accountRepository;
 
-	private RestaurantRepository restaurantRepository;
+	private final RestaurantRepository restaurantRepository;
 
-	private RewardRepository rewardRepository;
+	private final RewardRepository rewardRepository;
 
 	/**
 	 * Creates a new reward network.

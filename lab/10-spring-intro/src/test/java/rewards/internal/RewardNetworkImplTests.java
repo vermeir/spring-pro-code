@@ -2,7 +2,6 @@ package rewards.internal;
 
 import common.money.MonetaryAmount;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import rewards.AccountContribution;
 import rewards.Dining;
