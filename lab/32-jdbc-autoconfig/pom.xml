@@ -28,15 +28,13 @@
 
         <!-- Needed for the Spring JdbcTemplate -->
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-jdbc</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
 
-        <!-- Spring Integration testing support -->
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-            <scope>test</scope>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
 
         <!-- Database - DO NOT MODIFY -->
@@ -57,6 +55,10 @@
          <plugins>
             <!-- TO-DO-01 : Add the Spring Boot Plugin - see detailed instructions
                 for the XML you need. -->
+             <plugin>
+                 <groupId>org.springframework.boot</groupId>
+                 <artifactId>spring-boot-maven-plugin</artifactId>
+             </plugin>
 
             <!-- Ensure resources are handled correctly -->
             <plugin>
